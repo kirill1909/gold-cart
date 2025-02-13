@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картинки говорят!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Картинки говорят!!</h1>
+    <div class="container">
+        <div class="audio-box" onclick="playAudio(0, this)">
+            
+            <img src="img/usuf.jpg" alt="Image 1" class="image">
+            <p>Нажми чтобы услышать что говорит</p>
+        </div>
+        <div class="audio-box" onclick="playAudio(1, this)">
+            
+            <img src="img/kirill.jpg" alt="Image 2" class="image">
+            <p>Нажми чтобы услышать что говорит</p>
+        </div>
+        <div class="audio-box" onclick="playAudio(2, this)">
+            
+            <img src="img/sania.jpg" alt="Image 3" class="image">
+            <p>Нажми чтобы услышать что говорит</p>
+        </div>
+        <div class="audio-box" onclick="playAudio(3, this)">
+            
+            <img src="img/vlad.jpg" alt="Image 4" class="image">
+            <p>Нажми чтобы услышать что говорит</p>
+        </div>
+    </div>
+    <audio id="audio1" src="audio/usuf.mp3"></audio>
+    <audio id="audio2" src="audio/kirill.mp3"></audio>
+    <audio id="audio3" src="audio/sania.mp3"></audio>
+    <audio id="audio4" src="audio/vlad.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
+
